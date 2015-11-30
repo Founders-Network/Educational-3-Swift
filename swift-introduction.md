@@ -3,6 +3,8 @@ Welcome to the Swift educational! The information provided in this document will
 
 First things first, open up your Xcode. Press on "Get started with a playground" and we'll be on our way.
 
+*Note: if you want to see the value of any variables at any time, simply type the variable name on the editor and its value will be shown in the right-hand margin*
+
 ##Variables and Constants
 In your playground, you should see the following code: 
 ```swift
