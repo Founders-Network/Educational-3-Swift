@@ -1,14 +1,14 @@
 //
-//  EasyAppUITests.swift
-//  EasyAppUITests
+//  wowUITests.swift
+//  wowUITests
 //
-//  Created by Joanna Chen on 2015-11-26.
-//  Copyright © 2015 Joanna Chen. All rights reserved.
+//  Created by Joanna Chen on 2016-01-02.
+//  Copyright © 2016 Joanna Chen. All rights reserved.
 //
 
 import XCTest
 
-class EasyAppUITests: XCTestCase {
+class wowUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

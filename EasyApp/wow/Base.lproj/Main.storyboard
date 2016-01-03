@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="wow" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cjt-Su-LLA">
+                                <rect key="frame" x="108" y="93" width="150" height="150"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="b1action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M8K-Nw-nui"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AIy-6s-Q0K">
+                                <rect key="frame" x="108" y="310" width="150" height="150"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="b3action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1zB-DB-4BG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2XI-iD-X5L">
+                                <rect key="frame" x="334" y="310" width="150" height="150"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="b4action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="McM-gv-nHj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6aK-OZ-hMv">
+                                <rect key="frame" x="334" y="310" width="150" height="150"/>
+                                <state key="normal" title="Button"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="225" y="207" width="150" height="150"/>
+                                </variation>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aoh-KQ-HiW">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="238" y="51" width="45" height="21"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xqa-cg-EY7">
+                                <rect key="frame" x="334" y="93" width="150" height="150"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="b2action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tmC-0n-bKe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="6aK-OZ-hMv"/>
+                                <exclude reference="Aoh-KQ-HiW"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="subviews">
+                                <include reference="6aK-OZ-hMv"/>
+                                <include reference="Aoh-KQ-HiW"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="button1" destination="cjt-Su-LLA" id="6Ui-Je-9oj"/>
+                        <outlet property="button2" destination="Xqa-cg-EY7" id="D6G-AE-qdn"/>
+                        <outlet property="button3" destination="AIy-6s-Q0K" id="Cgl-5a-xtk"/>
+                        <outlet property="button4" destination="2XI-iD-X5L" id="URc-HW-koV"/>
+                        <outlet property="circle" destination="6aK-OZ-hMv" id="ebf-q2-4cD"/>
+                        <outlet property="scoreLabel" destination="Aoh-KQ-HiW" id="IKp-kU-6Sb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="352" y="339"/>
+        </scene>
+    </scenes>
+</document>

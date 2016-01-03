@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>EasyApp.xcscheme</key>
+		<key>wow.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>9E8703D41C077E6000E9C8F3</key>
+		<key>9E7667531C38C9FD000DB88E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9E8703E81C077E6100E9C8F3</key>
+		<key>9E7667671C38C9FE000DB88E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9E8703F31C077E6100E9C8F3</key>
+		<key>9E7667721C38C9FE000DB88E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

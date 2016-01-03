@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E7667581C38C9FD000DB88E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7667571C38C9FD000DB88E /* AppDelegate.swift */; };
+		9E76675A1C38C9FD000DB88E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7667591C38C9FD000DB88E /* ViewController.swift */; };
+		9E76675D1C38C9FD000DB88E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E76675B1C38C9FD000DB88E /* Main.storyboard */; };
+		9E76675F1C38C9FD000DB88E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E76675E1C38C9FD000DB88E /* Assets.xcassets */; };
+		9E7667621C38C9FD000DB88E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E7667601C38C9FD000DB88E /* LaunchScreen.storyboard */; };
+		9E76676D1C38C9FE000DB88E /* wowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76676C1C38C9FE000DB88E /* wowTests.swift */; };
+		9E7667781C38C9FE000DB88E /* wowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7667771C38C9FE000DB88E /* wowUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E7667691C38C9FE000DB88E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E76674C1C38C9FD000DB88E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E7667531C38C9FD000DB88E;
+			remoteInfo = wow;
+		};
+		9E7667741C38C9FE000DB88E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E76674C1C38C9FD000DB88E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E7667531C38C9FD000DB88E;
+			remoteInfo = wow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E7667541C38C9FD000DB88E /* wow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E7667571C38C9FD000DB88E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E7667591C38C9FD000DB88E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E76675C1C38C9FD000DB88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E76675E1C38C9FD000DB88E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E7667611C38C9FD000DB88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E7667631C38C9FD000DB88E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E7667681C38C9FE000DB88E /* wowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E76676C1C38C9FE000DB88E /* wowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wowTests.swift; sourceTree = "<group>"; };
+		9E76676E1C38C9FE000DB88E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E7667731C38C9FE000DB88E /* wowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E7667771C38C9FE000DB88E /* wowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wowUITests.swift; sourceTree = "<group>"; };
+		9E7667791C38C9FE000DB88E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E7667511C38C9FD000DB88E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E7667651C38C9FE000DB88E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E7667701C38C9FE000DB88E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E76674B1C38C9FD000DB88E = {
+			isa = PBXGroup;
+			children = (
+				9E7667561C38C9FD000DB88E /* wow */,
+				9E76676B1C38C9FE000DB88E /* wowTests */,
+				9E7667761C38C9FE000DB88E /* wowUITests */,
+				9E7667551C38C9FD000DB88E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E7667551C38C9FD000DB88E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E7667541C38C9FD000DB88E /* wow.app */,
+				9E7667681C38C9FE000DB88E /* wowTests.xctest */,
+				9E7667731C38C9FE000DB88E /* wowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E7667561C38C9FD000DB88E /* wow */ = {
+			isa = PBXGroup;
+			children = (
+				9E7667571C38C9FD000DB88E /* AppDelegate.swift */,
+				9E7667591C38C9FD000DB88E /* ViewController.swift */,
+				9E76675B1C38C9FD000DB88E /* Main.storyboard */,
+				9E76675E1C38C9FD000DB88E /* Assets.xcassets */,
+				9E7667601C38C9FD000DB88E /* LaunchScreen.storyboard */,
+				9E7667631C38C9FD000DB88E /* Info.plist */,
+			);
+			path = wow;
+			sourceTree = "<group>";
+		};
+		9E76676B1C38C9FE000DB88E /* wowTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E76676C1C38C9FE000DB88E /* wowTests.swift */,
+				9E76676E1C38C9FE000DB88E /* Info.plist */,
+			);
+			path = wowTests;
+			sourceTree = "<group>";
+		};
+		9E7667761C38C9FE000DB88E /* wowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E7667771C38C9FE000DB88E /* wowUITests.swift */,
+				9E7667791C38C9FE000DB88E /* Info.plist */,
+			);
+			path = wowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E7667531C38C9FD000DB88E /* wow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E76677C1C38C9FE000DB88E /* Build configuration list for PBXNativeTarget "wow" */;
+			buildPhases = (
+				9E7667501C38C9FD000DB88E /* Sources */,
+				9E7667511C38C9FD000DB88E /* Frameworks */,
+				9E7667521C38C9FD000DB88E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wow;
+			productName = wow;
+			productReference = 9E7667541C38C9FD000DB88E /* wow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E7667671C38C9FE000DB88E /* wowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E76677F1C38C9FE000DB88E /* Build configuration list for PBXNativeTarget "wowTests" */;
+			buildPhases = (
+				9E7667641C38C9FE000DB88E /* Sources */,
+				9E7667651C38C9FE000DB88E /* Frameworks */,
+				9E7667661C38C9FE000DB88E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E76676A1C38C9FE000DB88E /* PBXTargetDependency */,
+			);
+			name = wowTests;
+			productName = wowTests;
+			productReference = 9E7667681C38C9FE000DB88E /* wowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9E7667721C38C9FE000DB88E /* wowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E7667821C38C9FE000DB88E /* Build configuration list for PBXNativeTarget "wowUITests" */;
+			buildPhases = (
+				9E76676F1C38C9FE000DB88E /* Sources */,
+				9E7667701C38C9FE000DB88E /* Frameworks */,
+				9E7667711C38C9FE000DB88E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E7667751C38C9FE000DB88E /* PBXTargetDependency */,
+			);
+			name = wowUITests;
+			productName = wowUITests;
+			productReference = 9E7667731C38C9FE000DB88E /* wowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E76674C1C38C9FD000DB88E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Joanna Chen";
+				TargetAttributes = {
+					9E7667531C38C9FD000DB88E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					9E7667671C38C9FE000DB88E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9E7667531C38C9FD000DB88E;
+					};
+					9E7667721C38C9FE000DB88E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9E7667531C38C9FD000DB88E;
+					};
+				};
+			};
+			buildConfigurationList = 9E76674F1C38C9FD000DB88E /* Build configuration list for PBXProject "wow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E76674B1C38C9FD000DB88E;
+			productRefGroup = 9E7667551C38C9FD000DB88E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E7667531C38C9FD000DB88E /* wow */,
+				9E7667671C38C9FE000DB88E /* wowTests */,
+				9E7667721C38C9FE000DB88E /* wowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E7667521C38C9FD000DB88E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E7667621C38C9FD000DB88E /* LaunchScreen.storyboard in Resources */,
+				9E76675F1C38C9FD000DB88E /* Assets.xcassets in Resources */,
+				9E76675D1C38C9FD000DB88E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E7667661C38C9FE000DB88E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E7667711C38C9FE000DB88E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E7667501C38C9FD000DB88E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E76675A1C38C9FD000DB88E /* ViewController.swift in Sources */,
+				9E7667581C38C9FD000DB88E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E7667641C38C9FE000DB88E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E76676D1C38C9FE000DB88E /* wowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E76676F1C38C9FE000DB88E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E7667781C38C9FE000DB88E /* wowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E76676A1C38C9FE000DB88E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E7667531C38C9FD000DB88E /* wow */;
+			targetProxy = 9E7667691C38C9FE000DB88E /* PBXContainerItemProxy */;
+		};
+		9E7667751C38C9FE000DB88E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E7667531C38C9FD000DB88E /* wow */;
+			targetProxy = 9E7667741C38C9FE000DB88E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E76675B1C38C9FD000DB88E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E76675C1C38C9FD000DB88E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E7667601C38C9FD000DB88E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E7667611C38C9FD000DB88E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E76677A1C38C9FE000DB88E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E76677B1C38C9FE000DB88E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E76677D1C38C9FE000DB88E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JC.wow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9E76677E1C38C9FE000DB88E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JC.wow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9E7667801C38C9FE000DB88E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = wowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JC.wowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wow.app/wow";
+			};
+			name = Debug;
+		};
+		9E7667811C38C9FE000DB88E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = wowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JC.wowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wow.app/wow";
+			};
+			name = Release;
+		};
+		9E7667831C38C9FE000DB88E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = wowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JC.wowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = wow;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9E7667841C38C9FE000DB88E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = wowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JC.wowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = wow;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E76674F1C38C9FD000DB88E /* Build configuration list for PBXProject "wow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E76677A1C38C9FE000DB88E /* Debug */,
+				9E76677B1C38C9FE000DB88E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E76677C1C38C9FE000DB88E /* Build configuration list for PBXNativeTarget "wow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E76677D1C38C9FE000DB88E /* Debug */,
+				9E76677E1C38C9FE000DB88E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9E76677F1C38C9FE000DB88E /* Build configuration list for PBXNativeTarget "wowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E7667801C38C9FE000DB88E /* Debug */,
+				9E7667811C38C9FE000DB88E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9E7667821C38C9FE000DB88E /* Build configuration list for PBXNativeTarget "wowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E7667831C38C9FE000DB88E /* Debug */,
+				9E7667841C38C9FE000DB88E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E76674C1C38C9FD000DB88E /* Project object */;
+}

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0710"
+   LastUpgradeVersion = "0720"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9E8703D41C077E6000E9C8F3"
-               BuildableName = "EasyApp.app"
-               BlueprintName = "EasyApp"
-               ReferencedContainer = "container:EasyApp.xcodeproj">
+               BlueprintIdentifier = "9E7667531C38C9FD000DB88E"
+               BuildableName = "wow.app"
+               BlueprintName = "wow"
+               ReferencedContainer = "container:wow.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9E8703E81C077E6100E9C8F3"
-               BuildableName = "EasyAppTests.xctest"
-               BlueprintName = "EasyAppTests"
-               ReferencedContainer = "container:EasyApp.xcodeproj">
+               BlueprintIdentifier = "9E7667671C38C9FE000DB88E"
+               BuildableName = "wowTests.xctest"
+               BlueprintName = "wowTests"
+               ReferencedContainer = "container:wow.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9E8703F31C077E6100E9C8F3"
-               BuildableName = "EasyAppUITests.xctest"
-               BlueprintName = "EasyAppUITests"
-               ReferencedContainer = "container:EasyApp.xcodeproj">
+               BlueprintIdentifier = "9E7667721C38C9FE000DB88E"
+               BuildableName = "wowUITests.xctest"
+               BlueprintName = "wowUITests"
+               ReferencedContainer = "container:wow.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9E8703D41C077E6000E9C8F3"
-            BuildableName = "EasyApp.app"
-            BlueprintName = "EasyApp"
-            ReferencedContainer = "container:EasyApp.xcodeproj">
+            BlueprintIdentifier = "9E7667531C38C9FD000DB88E"
+            BuildableName = "wow.app"
+            BlueprintName = "wow"
+            ReferencedContainer = "container:wow.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9E8703D41C077E6000E9C8F3"
-            BuildableName = "EasyApp.app"
-            BlueprintName = "EasyApp"
-            ReferencedContainer = "container:EasyApp.xcodeproj">
+            BlueprintIdentifier = "9E7667531C38C9FD000DB88E"
+            BuildableName = "wow.app"
+            BlueprintName = "wow"
+            ReferencedContainer = "container:wow.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9E8703D41C077E6000E9C8F3"
-            BuildableName = "EasyApp.app"
-            BlueprintName = "EasyApp"
-            ReferencedContainer = "container:EasyApp.xcodeproj">
+            BlueprintIdentifier = "9E7667531C38C9FD000DB88E"
+            BuildableName = "wow.app"
+            BlueprintName = "wow"
+            ReferencedContainer = "container:wow.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
