@@ -35,7 +35,7 @@ shoppingList[1] = "coconut water"
 var emptyDictionary = [String: Float]()
 var anotherEmptyDictionary = [:]
 var animalSounds = [
-  "dog" : "woof"
+  "dog" : "woof",
   "cat" : "meow"
 ]
 ```
